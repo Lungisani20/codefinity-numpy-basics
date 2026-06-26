@@ -1,0 +1,8 @@
+import numpy as np
+
+weekly_sales = np.array([150, 200, 170, 180, 160, 210, 190])
+
+# Every second day starting from second day
+alternate_day_sales = weekly_sales[1::2]
+
+print(alternate_day_sales)
