@@ -1,0 +1,7 @@
+import numpy as np
+
+city_temperatures = np.array([[12, 18, 25, 14],
+                               [32, 20, 28, 35]])
+
+# Filter temperatures ≤ 15 OR > 30
+print(city_temperatures[(city_temperatures <= 15) | (city_temperatures > 30)])
